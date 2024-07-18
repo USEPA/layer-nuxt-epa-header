@@ -13,7 +13,6 @@
   <div>
     <footer
       class="footer"
-      role="contentinfo"
     >
       <div class="l-constrain">
         <img
