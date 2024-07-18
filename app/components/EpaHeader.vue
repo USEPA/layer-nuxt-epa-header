@@ -7,11 +7,6 @@
     }
     officialGov.value.hidden = true;
   }
-  onMounted(() => {
-    console.log(officialGov.value)
-    officialGov.value // <div>
-})
-
 </script>
 
 <template>
@@ -29,7 +24,7 @@
     </div>
     <header
       class="usa-banner__header"
-      @click="console.log('clicked')"
+      aria-label="EPA Header"
     >
       <div class="usa-banner__inner">
         <div class="grid-col-auto">
@@ -120,7 +115,8 @@
    
 
 
-    <header
+    <section
+      aria-label="epa search"
       class="l-header js-header-search usa-header usa-header--extended"
       data-once="header-search"
     >
@@ -267,34 +263,19 @@
                     href="https://www.epa.gov/environmental-topics"
                     class="menu__link"
                   >Environmental Topics</a>
-                </li>    
-                        
-                              
-      
-      
-      
+                </li>
                 <li class="menu__item">
                   <a
                     href="https://www.epa.gov/laws-regulations"
                     class="menu__link"
                   >Laws &amp; Regulations</a>
-                </li>    
-                        
-                              
-      
-      
-      
+                </li>
                 <li class="menu__item">
                   <a
                     href="https://www.epa.gov/report-violation"
                     class="menu__link"
                   >Report a Violation</a>
-                </li>    
-                        
-                              
-      
-      
-      
+                </li>
                 <li class="menu__item">
                   <a
                     href="https://www.epa.gov/aboutepa"
@@ -306,7 +287,7 @@
           </div>
         </nav>
       </div>
-    </header>
+    </section>
   </div>
 </template>
 
