@@ -44,12 +44,13 @@
           <p class="usa-banner__header-text">
             An official website of the United States government
           </p>
-          <p class="usa-banner__header-action">
+          <span class="usa-banner__header-action">
             Here’s how you know
-          </p>
+          </span>
         </div>
         <button
           type="button"
+          class="usa-accordion__button usa-banner__button"
           aria-expanded="false"
           aria-controls="gov-banner"
           @click="toggleInfo()"
