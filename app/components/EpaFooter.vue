@@ -266,18 +266,22 @@
 
 
     <a
-      href="https://www.epa.gov/themes/epa_theme/pattern-lab/patterns/pages-standalone-template/pages-standalone-template.rendered.html#"
+      href="#top"
       class="back-to-top"
-      title=""
-      aria-hidden="true"
+      title="back to top"
+      aria-hidden="false"
+      aria-label="back to top link"
       tabindex="-1"
     >
       <svg
         class="back-to-top__icon"
         role="img"
-        aria-label=""
+        aria-label="back to top"
       >
-        <use href="https://www.epa.gov/themes/epa_theme/images/sprite.artifact.svg#angle" />
+        <use
+          alt="up icon"
+          href="https://www.epa.gov/themes/epa_theme/images/sprite.artifact.svg#angle"
+        />
       </svg>
     </a>
   </div>
@@ -289,7 +293,9 @@
 h2 {
   font-size: 31.2px !important;
 }
-
+.l-page__footer-contact{
+  font-size: 16.96px !important;
+}
 .icon--social {
   width: 32px !important;
   height: 32px !important;
