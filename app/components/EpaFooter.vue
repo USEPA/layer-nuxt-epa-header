@@ -11,6 +11,17 @@
 
 <template>
   <div>
+    <div class="l-page__footer">
+      <div class="l-constrain">
+        <div class="l-page__footer-contact">
+          <a href="https://www.epa.gov/web-policies-and-procedures/forms/contact-us-about-web-policies-and-procedures">Contact Us</a> to ask a question, provide feedback, or report a problem.
+        </div> 
+        <div class="l-page__footer-last-updated">
+          Last updated on April 11, 2024
+        </div>
+      </div>
+    </div>
+
     <footer
       class="footer"
     >
@@ -248,9 +259,6 @@
                 </a>
               </li>
             </ul>
-            <p class="footer__last-updated">
-              Last updated on December 4, 2023
-            </p>
           </div>
         </div>
       </div>
@@ -276,7 +284,11 @@
 </template>
 
 <style scoped>
-@import "../assets/styles/styles.css";
+@import "../assets/styles/styles2.css";
+
+h2 {
+  font-size: 31.2px !important;
+}
 
 .icon--social {
   width: 32px !important;
