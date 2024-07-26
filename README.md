@@ -1,4 +1,4 @@
-# Nuxt Layer Starter
+# EPA header and footer Nuxt Layer 
 
 Create Nuxt extendable layer with this GitHub template.
 
@@ -9,16 +9,36 @@ Make sure to install the dependencies:
 ```bash
 pnpm install
 ```
+```bash
+yarn install
+```
+```bash
+npm install
+```
 
-## Working on your theme
+## Using this layer in a mono repo
 
-Your theme is at the root of this repository, it is exactly like a regular Nuxt project, except you can publish it on NPM.
+To use it this way you will need to create single directory to  git clone the app you want to use the header and footer with into.
 
-The `.playground` directory should help you on trying your theme during development.
+Then clone this repo into the same directory and install it using the package manager of your choice (it was built using yarn 1.22.19)
 
-Running `pnpm dev` will prepare and boot `.playground` directory, which imports your theme itself.
-
-## Distributing your theme
+Add this to the nuxt.config.ts
+```ts
+export default defineNuxtConfig({
+  extends: ['../layer-nuxt-epa-header'],
+```
+The in your app add the EpaHeader and EpaFooter wherever you need them (I add them to the layout)
+```html
+<template>
+ <div>
+    <EpaHeader />
+    <YourHeader />
+    Your content….
+    <EpaFooter />
+ </div>
+</template>
+```
+## Distributing your layer
 
 Your Nuxt layer is shaped exactly the same as any other Nuxt project, except you can publish it on NPM.
 
