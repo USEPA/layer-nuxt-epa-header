@@ -273,16 +273,11 @@
       aria-label="back to top link"
       tabindex="-1"
     >
-      <svg
-        class="back-to-top__icon"
-        role="img"
-        aria-label="back to top"
+      <img
+        src="../assets/images/back-top-2.svg"
+        class="icon icon--social"
+        aria-hidden="true"
       >
-        <use
-          alt="up icon"
-          href="https://www.epa.gov/themes/epa_theme/images/sprite.artifact.svg#angle"
-        />
-      </svg>
     </a>
   </div>
 </template>
