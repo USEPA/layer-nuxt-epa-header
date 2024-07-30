@@ -158,14 +158,11 @@ const toggleInfo = () => {
                 aria-expanded="false"
                 aria-label="Open search drawer"
               >
-                <svg
-                  class="icon l-header__search-button-icon-open"
-                  aria-hidden="true"
-                ><use href="https://www.epa.gov/themes/images/sprite.artifact.svg#magnifying-glass" /></svg>          
-                <svg
-                  class="icon l-header__search-button-icon-close"
-                  aria-hidden="true"
-                ><use href="https://www.epa.gov/themes/images/sprite.artifact.svg#xmark" /></svg>
+                <img
+                  src="../assets/images/search--white.svg"
+                  class="usa-search__submit-icon"
+                  alt="Search"
+                >
               </button>
               <a
                 class="site-logo"
@@ -221,11 +218,14 @@ const toggleInfo = () => {
                     class="button"
                     type="submit"
                     aria-label="Search"
+                    @click="console.log('submit')"
                   >
-                    <svg
-                      class="icon usa-search__submit-icon"
-                      aria-hidden="true"
-                    ><use href="https://www.epa.gov/themes/images/sprite.artifact.svg#magnifying-glass" /></svg>      <span class="usa-search__submit-text">Search</span>
+                    <img
+                      src="../assets/images/search--white.svg"
+                      class="usa-search__submit-icon"
+                      alt="Search"
+                      @click="console.log('submit')"
+                    >     <span class="usa-search__submit-text">Search</span>
                   </button>
                   <input
                     type="hidden"

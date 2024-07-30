@@ -1,3 +1,8 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
-  <HelloWorld />
+  <EpaHeader />
+  <EpaFooter />
 </template>
