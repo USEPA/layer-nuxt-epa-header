@@ -6,6 +6,7 @@
 
 .usa-textarea,.form-item__textarea,.usa-range,.form-item__range,.usa-input-group,.usa-combo-box__input,.usa-select,.form-item__select,.usa-input,.form-item__color,.form-item__date,.form-item__email,.form-item__month,.form-item__number,.form-item__password,.form-item__search,.form-item__tel,.form-item__text,.form-item__time,.form-item__url,.form-item__week {
   border-width: 1px;
+  background-color: white !important;
   border-color: #565c65;
   border-style: solid;
   -webkit-appearance: none;
