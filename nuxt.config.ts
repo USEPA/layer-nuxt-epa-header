@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  devtools: { enabled: false },
 
   // To re-enable _all_ Nuxt v3 behavior, set the following options:
   // srcDir: '.',
