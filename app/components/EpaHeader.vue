@@ -269,11 +269,7 @@ const toggleInfo = () => {
                 class="usa-nav__close"
                 aria-label="Close"
               >
-                <svg
-                  class="icon icon--nav-close"
-                  aria-hidden="true"
-                  role="img"
-                ><title>Primary navigation</title><use href="https://www.epa.gov/themes/images/sprite.artifact.svg#xmark" /></svg>
+                <title>Primary navigation</title>
               </button>
               <div class="usa-nav__menu">
                 <ul class="menu menu--main usa-accordion">
@@ -285,133 +281,7 @@ const toggleInfo = () => {
                       aria-controls="extended-nav-section-0"
                     >
                       Environmental Topics
-              
-                      <svg
-                        class="icon menu__link-icon"
-                        aria-hidden="true"
-                      ><use href="https://www.epa.gov/themes/images/sprite.artifact.svg#angle" /></svg>
-                    </button><ul
-                      id="extended-nav-section-0"
-                      class="menu menu__subnav usa-nav__submenu usa-megamenu  is-wide"
-                      data-once="navigation"
-                      hidden=""
-                    >
-                      <li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/environmental-topics"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/164839"
-                        >Environmental Topics</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/environmental-topics/air-topics"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/165225"
-                        >Air</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/bedbugs"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/17591"
-                        >Bed Bugs</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/environmental-topics/epa-efforts-reduce-exposure-carcinogens-and-prevent-cancer"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/280190"
-                        >Cancer</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/environmental-topics/chemicals-pesticides-and-toxics-topics"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/165371"
-                        >Chemicals, Toxics, and Pesticide </a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/climate-change"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/37925"
-                        >Climate Change</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/emergency-response"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/18839"
-                        >Emergency Response</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/environmental-topics/environmental-information-by-location"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/165443"
-                        >Environmental Information by Location </a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/environmentaljustice"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/66337"
-                        >Environmental Justice</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/environmental-topics/greener-living"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/165399"
-                        >Greener Living</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/environmental-topics/health-topics"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/165317"
-                        >Health</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/environmental-topics/land-waste-and-cleanup-topics"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/165171"
-                        >Land, Waste, and Cleanup</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/lead"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/3085"
-                        >Lead</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/mold"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/37083"
-                        >Mold</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/radon"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/38609"
-                        >Radon</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/research"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/35507"
-                        >Research</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/environmental-topics/science-topics"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/172685"
-                        >Science Topics</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/environmental-topics/water-topics"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/164827"
-                        >Water Topics</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/topics-epa-web"
-                          class="menu__link"
-                          data-drupal-link-system-path="topics-epa-web"
-                        >A-Z Topic Index</a>
-                      </li>
-                    </ul>
+                    </button>
                   </li>    
                   <li class="menu__item has-subnav is-expanded">
                     <button
@@ -421,62 +291,7 @@ const toggleInfo = () => {
                       aria-controls="extended-nav-section-1"
                     >
                       Laws &amp; Regulations
-              
-                      <svg
-                        class="icon menu__link-icon"
-                        aria-hidden="true"
-                      ><use href="https://www.epa.gov/themes/images/sprite.artifact.svg#angle" /></svg>
-                    </button><ul
-                      id="extended-nav-section-1"
-                      class="menu menu__subnav usa-nav__submenu usa-megamenu "
-                      data-once="navigation"
-                      hidden=""
-                    >
-                      <li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/laws-regulations"
-                          title="View links to regulatory information by topic and sector, and to top pages about environmental laws, regulations, policies, compliance, and enforcement"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/3157"
-                        >Laws &amp; Regulations</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/regulatory-information-sector"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/3173"
-                        >By Business Sector</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/regulatory-information-topic"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/66677"
-                        >By Topic</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/compliance"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/19411"
-                        >Compliance</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/enforcement"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/10885"
-                        >Enforcement</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/laws-regulations/laws-and-executive-orders"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/66719"
-                        >Laws and Executive Orders</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/laws-regulations/regulations"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/11249"
-                        >Regulations</a>
-                      </li>
-                    </ul>
+                    </button>
                   </li>    
                   <li class="menu__item has-subnav is-expanded">
                     <button
@@ -486,37 +301,7 @@ const toggleInfo = () => {
                       aria-controls="extended-nav-section-2"
                     >
                       Report a Violation
-              
-                      <svg
-                        class="icon menu__link-icon"
-                        aria-hidden="true"
-                      ><use href="https://www.epa.gov/themes/images/sprite.artifact.svg#angle" /></svg>
-                    </button><ul
-                      id="extended-nav-section-2"
-                      class="menu menu__subnav usa-nav__submenu usa-megamenu "
-                      data-once="navigation"
-                      hidden=""
-                    >
-                      <li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/report-violation"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/271510"
-                        >Report a Violation</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://echo.epa.gov/report-environmental-violations"
-                          class="menu__link"
-                          data-once="external-links protected-links"
-                        >Environmental Violations</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epaoig.gov/epa-oig-hotline-complaint-form"
-                          class="menu__link"
-                          data-once="external-links protected-links"
-                        >Fraud, Waste or Abuse</a>
-                      </li>
-                    </ul>
+                    </button>
                   </li>    
                   <li class="menu__item has-subnav is-expanded">
                     <button
@@ -526,79 +311,7 @@ const toggleInfo = () => {
                       aria-controls="extended-nav-section-3"
                     >
                       About EPA
-              
-                      <svg
-                        class="icon menu__link-icon"
-                        aria-hidden="true"
-                      ><use href="https://www.epa.gov/themes/images/sprite.artifact.svg#angle" /></svg>
-                    </button><ul
-                      id="extended-nav-section-3"
-                      class="menu menu__subnav usa-nav__submenu usa-megamenu "
-                      data-once="navigation"
-                      hidden=""
-                    >
-                      <li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/aboutepa"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/851"
-                        >About EPA</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/aboutepa/our-mission-and-what-we-do"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/2099"
-                        >Our Mission and What We Do</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/aboutepa/epa-administrator"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/264813"
-                        >EPA Administrator</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/aboutepa#hq"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/851"
-                        >Headquarters Offices</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/aboutepa/regional-and-geographic-offices"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/254965"
-                        >Regional Offices</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/aboutepa/research-centers-programs-and-science-advisory-organizations"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/254969"
-                        >Labs and Research Centers</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/planandbudget"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/863"
-                        >Planning, Budget, and Results</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/aboutepa/epa-organization-chart"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/2481"
-                        >Organization Chart</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://www.epa.gov/history"
-                          class="menu__link"
-                          data-drupal-link-system-path="node/162637"
-                        >EPA History</a>
-                      </li><li class="menu__item">
-                        <a
-                          href="https://cfpub.epa.gov/locator/index.cfm"
-                          class="menu__link"
-                          data-once="external-links protected-links"
-                        >Staff Directory</a>
-                      </li>
-                    </ul>
+                    </button>
                   </li>
                 </ul>
               </div>
