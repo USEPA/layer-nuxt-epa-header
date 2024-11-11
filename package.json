@@ -1,7 +1,9 @@
 {
-  "name": "layer-nuxt-epa-header",
+  "name": "ccte-epa-header-footer",
+  "version": "1.0.0",
+  "description": "Nuxt 3 layer for EPA header and footer with Nuxt 4 opt in",
+  "private": true,
   "type": "module",
-  "version": "0.0.1",
   "main": "./nuxt.config.ts",
   "license": "MIT",
   "scripts": {
@@ -15,8 +17,8 @@
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
     "eslint": "^8.28.0",
-    "nuxt": "^3.12.2",
+    "nuxt": "^3.14.159",
     "typescript": "5.3.3"
   },
-  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+  "dependencies": {}
 }
