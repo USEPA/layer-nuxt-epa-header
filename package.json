@@ -5,12 +5,10 @@
   "type": "module",
   "main": "./nuxt.config.ts",
   "license": "MIT",
-  "scripts": {
     "build": "nuxt build .playground",
     "generate": "nuxt generate .playground",
     "preview": "nuxt preview .playground",
     "lint": "eslint .",
-    "postinstall": "nuxt prepare .playground",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "devDependencies": {
