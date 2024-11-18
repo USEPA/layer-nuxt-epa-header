@@ -17,7 +17,7 @@
           <a href="https://www.epa.gov/web-policies-and-procedures/forms/contact-us-about-web-policies-and-procedures">Contact Us</a> to ask a question, provide feedback, or report a problem.
         </div> 
         <div class="l-page__footer-last-updated">
-          Last updated on April 11, 2024
+          Last updated on October 29, 2024
         </div>
       </div>
     </div>
@@ -26,6 +26,22 @@
       class="footer"
     >
       <div class="l-constrain">
+        <div class="footer__pre-footer">
+          <ul class="list list--footer-language-bar">
+            <li><a href="https://www.epa.gov/lep/assistance">Assistance</a></li>
+            <li><a href="https://www.epa.gov/lep/assistance#esp">Ayuda</a></li>
+            <li><a href="https://www.epa.gov/lep/assistance#ar">مساعدة</a></li>
+            <li><a href="https://www.epa.gov/lep/assistance#chi-s">帮助 (简体版)</a></li>
+            <li><a href="https://www.epa.gov/lep/assistance#chi-tr">幫助 (繁體版)</a></li>
+            <li><a href="https://www.epa.gov/lep/assistance#fr">Aide</a></li>
+            <li><a href="https://www.epa.gov/lep/assistance#hc">Asistans</a></li>
+            <li><a href="https://www.epa.gov/lep/assistance#kor">지원</a></li>
+            <li><a href="https://www.epa.gov/lep/assistance#port">Assistência</a></li>
+            <li><a href="https://www.epa.gov/lep/assistance#rus">Помощь</a></li>
+            <li><a href="https://www.epa.gov/lep/assistance#tag">Tulong</a></li>
+            <li><a href="https://www.epa.gov/lep/assistance#viet">Trợ Giúp</a></li>
+          </ul>
+        </div>
         <img
           class="footer__epa-seal"
           src="../assets/images/epa-seal.svg"
@@ -263,65 +279,23 @@
         </div>
       </div>
     </footer>
-
-
     <a
       href="#top"
       class="back-to-top"
       title="back to top"
       aria-hidden="false"
       aria-label="back to top link"
-      tabindex="-1"
+      tabindex="1"
     >
       <img
         src="../assets/images/back-top-2.svg"
         class="icon icon--social"
-        aria-hidden="true"
+        tabindex="1"
       >
     </a>
   </div>
 </template>
 
 <style scoped>
-@import "../assets/styles/styles2.css";
-
-h2 {
-  font-size: 31.2px !important;
-}
-.l-page__footer-contact{
-  font-size: 16.96px !important;
-}
-.icon--social {
-  width: 32px !important;
-  height: 32px !important;
-  padding: 1px !important;
-}
-
-.menu--social .menu__item {
-  padding-right: .5rem !important;
-}
-a.menu--social {
-  background-color: #dfe1e2; 
-  border-radius: 15% !important;
-  color: #dfe1e2 !important;
-}
-a.menu--social:focus-visible, a.menu--social:hover  {
-  background-color: #ffffff; 
-  border-radius: 15% !important;
-  color: #ffffff !important;
-}
-a.menu__link:focus-visible {
-  color: #ffffff !important;
-}
-a.menu__link:hover {
-  color: #ffffff !important;
-
-}
-.usa-banner__header {
-  background-color: #f0f0f0 !important;
-}
-.skiplinks-link {
-  font-size: 1.25rem;
-  background-color: antiquewhite;
-}
+@import "../assets/styles/footerStyles.css";
 </style>
