@@ -1,0 +1,356 @@
+.footer {
+  background-color: #3d4551;
+  color: #fff;
+  min-height: 11.25rem;
+  padding: 2.5rem 0;
+}
+
+.l-page__footer {
+  background-color: #edeff0;
+  margin-top: 2rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem
+}
+
+.l-page__footer :last-child {
+  margin-bottom: 0
+}
+
+@media all and (min-width: 64em) {
+  .l-page__footer {
+    padding-bottom: 2rem;
+    padding-top: 2rem
+  }
+
+  .l-page__footer .l-constrain,
+  .l-page__footer .block {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%
+  }
+}
+
+.l-page__footer-last-updated {
+  font-size: .87rem;
+  line-height: 1.2;
+  margin-top: 1rem;
+}
+
+.footer__epa-seal {
+  float: left;
+  margin: 0 2.5rem 2.5rem 0
+}
+
+@media(min-width: 43.75em) {
+  .footer__epa-seal {
+    margin-right: 5.7142857143%
+  }
+}
+
+@media all and (min-width: 64em) {
+  .l-page__footer-last-updated {
+    margin-left: 1rem;
+    margin-top: 0
+  }
+}
+
+@media(min-width: 56.25em) {
+  .l-sidebar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+  }
+}
+
+.menu--footer {
+  list-style-type: none;
+  padding: 0
+}
+
+.menu--footer .menu__item {
+  margin: 0 0 1rem;
+  padding-left: 0
+}
+
+.menu--footer .menu__link {
+  display: block;
+  font-family: Merriweather Web, "Noto Sans Arabic", "Noto Sans BN homepage", "Noto Sans GU homepage", "Noto Sans KR homepage", "Noto Sans SC homepage", "Noto Sans BN", "Noto Sans GU", "Noto Sans KR", "Noto Sans SC", "Noto Sans TC", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  outline-offset: .25rem;
+  text-decoration: none
+}
+
+.menu--footer .menu__link:hover,
+.menu--footer .menu__link:focus,
+.menu--footer .menu__link:active {
+  text-decoration: underline
+}
+
+.footer a:link,
+.definition__tooltip a:link,
+.footer a:visited,
+.definition__tooltip a:visited {
+  color: #dfe1e2
+}
+
+.footer a:hover,
+.definition__tooltip a:hover,
+.footer a:focus,
+.definition__tooltip a:focus,
+.footer a:active,
+.definition__tooltip a:active {
+  color: #fff
+}
+
+.footer a:hover,
+.definition__tooltip a:hover,
+.footer a:focus,
+.definition__tooltip a:focus,
+.footer a:active,
+.definition__tooltip a:active {
+  color: #fff
+}
+
+.l-constrain {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 87.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.footer__pre-footer {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.list--footer-language-bar {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: Merriweather Web, "Noto Sans Arabic", "Noto Sans BN homepage", "Noto Sans GU homepage", "Noto Sans KR homepage", "Noto Sans SC homepage", "Noto Sans BN", "Noto Sans GU", "Noto Sans KR", "Noto Sans SC", "Noto Sans TC", Georgia, Cambria, "Times New Roman", Times, serif;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.footer__content {
+  display: inline-block
+}
+
+@media(min-width: 43.75em) {
+  .footer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+  }
+}
+
+.footer__column {
+  margin-bottom: 2.925rem
+}
+
+@media(min-width: 43.75em) {
+  .footer__column {
+    margin-bottom: 0;
+    width: 30%
+  }
+}
+
+.footer__column:last-child {
+  margin-bottom: 0
+}
+
+.footer__column h2 {
+  color: white !important;
+  font-family: Merriweather Web, "Noto Sans Arabic", "Noto Sans BN homepage", "Noto Sans GU homepage", "Noto Sans KR homepage", "Noto Sans SC homepage", "Noto Sans BN", "Noto Sans GU", "Noto Sans KR", "Noto Sans SC", "Noto Sans TC", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 31.2px !important;
+  text-align: left !important;
+  margin-left: 10px !important;
+  margin-bottom: 16px;
+}
+
+.menu--social .menu__item {
+  margin: 0 .5rem .5rem 0;
+  padding-left: 0
+}
+
+.menu--social .menu__link {
+  display: block;
+  font-size: 2.5rem;
+  line-height: .5;
+  text-decoration: none
+}
+
+.menu--social .menu__link::after,
+.menu--social .menu__link .icon--exit {
+  display: none !important
+}
+
+.l-page__footer-contact {
+  font-size: 16.96px !important;
+}
+
+.icon--social {
+  width: 32px !important;
+  height: 32px !important;
+  padding: 1px !important;
+}
+
+.menu--social .menu__item {
+  padding-right: .5rem !important;
+}
+
+a.menu--social {
+  background-color: #dfe1e2;
+  border-radius: 15% !important;
+  color: #dfe1e2 !important;
+}
+
+a.menu--social:focus-visible,
+a.menu--social:hover {
+  background-color: #ffffff;
+  border-radius: 15% !important;
+  color: #ffffff !important;
+}
+
+a.menu__link:focus-visible {
+  color: #ffffff !important;
+}
+
+a.menu__link:hover {
+  color: #ffffff !important;
+
+}
+
+.menu--social .menu__item {
+  margin: 0 .5rem .5rem 0;
+  padding-left: 0
+}
+
+.menu--social .menu__link {
+  display: block;
+  font-size: 2.5rem;
+  line-height: .5;
+  text-decoration: none
+}
+
+.menu--social .menu__link::after,
+.menu--social .menu__link .icon--exit {
+  display: none !important
+}
+
+.menu--social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0
+}
+
+@media(min-width: 43.75em) {
+  .menu--social {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 9rem
+  }
+}
+
+@media(min-width: 65em) {
+  .menu--social {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    max-width: 100%
+  }
+}
+
+.usa-banner__header {
+  background-color: #f0f0f0 !important;
+}
+
+.skiplinks-link {
+  font-size: 1.25rem;
+  background-color: antiquewhite;
+}
+
+.back-to-top {
+  display: none
+}
+
+@media(min-width: 30em) {
+  .back-to-top {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #a9aeb1;
+    border-radius: 50%;
+    bottom: 1.25rem;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 4.375rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    right: 1.25rem;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -webkit-transition-property: background-color, color, opacity;
+    transition-property: background-color, color, opacity;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    width: 4.375rem
+  }
+
+  .back-to-top:visited {
+    color: #fff
+  }
+
+  .back-to-top:hover,
+  .back-to-top:focus {
+    background-color: #565c65;
+    color: #fff
+  }
+
+  .back-to-top {
+    opacity: 1
+  }
+
+  #components-back-to-top .back-to-top {
+    opacity: 1
+  }
+}
+
+.back-to-top__icon {
+  height: 1.375rem;
+  width: 2.1875rem
+}
+
+:focus-visible {
+  outline: .25rem solid #35ee24;
+  outline-offset: 0;
+}
