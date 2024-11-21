@@ -1,6 +1,6 @@
 {
   "name": "@usepa/ccte-epa-header-footer",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Nuxt 3 layer for EPA header and footer with Nuxt 4 opt in",
   "type": "module",
   "main": "./nuxt.config.ts",
@@ -10,6 +10,7 @@
     "generate": "nuxt generate .playground",
     "preview": "nuxt preview .playground",
     "lint": "eslint .",
+    "npmlogin": "npm login --scope=@usepa --registry=https://npm.pkg.github.com",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "devDependencies": {
