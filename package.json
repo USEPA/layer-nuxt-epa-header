@@ -10,6 +10,7 @@
     "generate": "nuxt generate .playground",
     "preview": "nuxt preview .playground",
     "lint": "eslint .",
+    "npmlogin": "npm login --scope=@usepa --registry=https://npm.pkg.github.com",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "devDependencies": {
