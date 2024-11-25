@@ -209,6 +209,11 @@
   font-size: 16.96px !important;
 }
 
+.l-page__footer-contact > a{
+  font-size: 16.96px !important;
+  color: blue !important;
+}
+
 .icon--social {
   width: 32px !important;
   height: 32px !important;

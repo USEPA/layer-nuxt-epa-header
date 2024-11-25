@@ -2993,8 +2993,15 @@ html.no-js .menu--main .menu__subnav .menu__link:focus {
   color: #005ea2
 }
 
-.site-logo:hover,.site-logo:focus {
+.site-logo:hover{
   color: #1a4480;
+}
+
+.site-logo:focus-visible {  
+  border: none !important;
+  outline-style: solid !important;
+  outline-width:3px !important;    
+  outline-color: greenyellow;
 }
 
 @media all and (min-width: 55em) {
