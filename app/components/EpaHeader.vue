@@ -229,36 +229,58 @@ const toggleInfo = () => {
             <div class="usa-nav__menu">
               <ul class="menu menu--main">
                 <li class="menu__item">
-                  <button
-                    class="menu__link has-subnav usa-nav__link"
-                    type="button"
+                  <a
+                    href="https://www.epa.gov/environmental-topics"
+                    title="Environmental Topics"
                   >
-                    Environmental Topics
-                  </button>
+                    <button
+                      class="menu__link has-subnav usa-nav__link"
+                      type="button"
+                    >
+                      Environmental Topics
+                    </button>
+                  </a>
                 </li>    
                 <li class="menu__item">
-                  <button
-                    class="menu__link has-subnav usa-nav__link"
-                    type="button"
+                  <a
+                    href="https://www.epa.gov/laws-regulations"
+                    title="View links to regulatory information by topic and sector, and to top pages about environmental laws, regulations, policies, compliance, and enforcement"
                   >
-                    Laws &amp; Regulations
-                  </button>
+                    <button
+                      class="menu__link has-subnav usa-nav__link"
+                      type="button"
+                    >
+                      Laws &amp; Regulations
+                    </button>
+                  </a>
                 </li>    
                 <li class="menu__item">
-                  <button
-                    class="menu__link has-subnav usa-nav__link"
-                    type="button"
+                  <a
+                    href="https://www.epa.gov/report-violation"
+                    title="Report a violation"
                   >
-                    Report a Violation
-                  </button>
+                    <button
+                      class="menu__link has-subnav usa-nav__link"
+                      type="button"
+                    >
+                      Report a Violation
+                    </button>
+                  </a>
                 </li>    
                 <li class="menu__item">
-                  <button
-                    class="menu__link has-subnav usa-nav__link"
-                    type="button"
+                  <a
+                    href="https://www.epa.gov/aboutepa"
+                    title="About the EPA"
                   >
-                    About EPA
-                  </button>
+                    <button
+                      class="menu__link has-subnav usa-nav__link"
+                      type="button"
+                    >
+                    
+                      About EPA
+                   
+                    </button>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -271,7 +293,7 @@ const toggleInfo = () => {
 
 <style scoped>
 @import "../assets/styles/headerStyles.css";
-
+/* over-rides */
 a.menu__link {
   color: white !important;
 }
@@ -281,10 +303,6 @@ a.menu__link:focus-visible {
 }
 a.menu__link:focus-visible {
   color: greenyellow !important;
-
-}
-a.menu__link:hover {
-  color: #1a4480 !important;
 
 }
 .menu--main .menu__link.has-subnav:focus-visible {
@@ -316,5 +334,7 @@ a.menu__link:hover {
 .usa-banner__header {
   background-color: #f0f0f0 !important;
 }
-
+a:focus {
+  outline-width: 0px !important;
+}
 </style>

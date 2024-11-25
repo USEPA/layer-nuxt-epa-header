@@ -285,12 +285,12 @@
       title="back to top"
       aria-hidden="false"
       aria-label="back to top link"
-      tabindex="1"
+      tabindex="0"
     >
       <img
         src="../assets/images/back-top-2.svg"
         class="icon icon--social"
-        tabindex="1"
+        aria-hidden="true"
       >
     </a>
   </div>
