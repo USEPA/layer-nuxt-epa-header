@@ -115,9 +115,11 @@ npm publish --access public
 Once done, your users will only have to run:
 
 ```bash
-npm install --save your-theme
+npm install --save @usepa/ccte-epa-header-footer
 ```
-
+```bash
+yarn add @usepa/ccte-epa-header-footer
+```
 Then add the dependency to their `extends` in `nuxt.config`:
 
 ```ts
