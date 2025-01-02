@@ -31,7 +31,7 @@ const toggleInfo = () => {
       <a
         id="skip-to-main"
         href="#main"
-        class="skiplinks__link visually-hidden focusable"
+        class="skiplinks__link visually-hidden focusable sr-only"
       >Skip to main content</a>
     </div>
     <section
