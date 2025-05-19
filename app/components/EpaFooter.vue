@@ -221,7 +221,7 @@
                 <a
                   class="menu__link menu--social"
                   aria-label="EPA’s Twitter"
-                  href="https://twitter.com/epa"
+                  href="https://x.com/epa"
                 >
                   <img
                     width="26"
