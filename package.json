@@ -1,6 +1,6 @@
 {
   "name": "@usepa/ccte-epa-header-footer",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Nuxt 3 layer for EPA header and footer with Nuxt 4 opt in",
   "type": "module",
   "main": "./nuxt.config.ts",
